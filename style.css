@@ -48,3 +48,61 @@ nav{
 
 /* Navigation ends here */
 
+/* Home Start Here */
+
+.prebook-button{
+    outline: 0;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #E02C6D;
+    margin-top: 10px;
+    top: 0;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.prebook-button:hover{
+    background-image: linear-gradient(90deg, #c21273, #ff008e);
+}
+.arrow-icon{
+    color: white;
+    transform: rotate(3);
+    transition: 5s;
+}
+.container{
+    margin: auto;
+    padding: 35px;
+}
+.home-container{
+    display: flex;
+}
+
+.first-header{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-para-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main-camera-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-camera-right{
+    width: 100%;
+    margin-top: ;
+}
+
+/* Home End Here */
+
