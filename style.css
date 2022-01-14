@@ -19,6 +19,11 @@ body{
 header{
     height: 100px;
 }
+.head-word{
+    font-size: 18px;
+    font-weight: 600;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -201,7 +206,7 @@ p{
 .alumni-right{
     justify-content: flex-end;
     align-items: center;
-    width: 300px;
+    width: 400px;
     margin: 40px;
 }
 .Alumnai-button{
@@ -239,4 +244,45 @@ p{
 .icon-footer{
     padding: 5px;
     margin-top: 10px;
+}
+
+
+@media (max-width: 920px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .extra-requarments{
+        display: none;
+        grid-template-columns: 1fr;
+    }
+    .buy-now{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 620px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .extra-requarments{
+        display: none;
+        grid-template-columns: 1fr;
+    }
+    .buy-now{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .alumni-right{
+        justify-content: flex-end;
+        align-items: center;
+        width: 400px;
+        margin: 40px;
+    }
+    .navigation-menu li{
+        display: none;
+    }
 }
