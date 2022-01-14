@@ -101,8 +101,74 @@ p{
 }
 .main-camera-right{
     width: 100%;
-    margin-top: ;
+    margin-top: 0;
 }
 
 /* Home End Here */
 
+/* Collection Stars */
+
+.buy-now{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 11px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 35px;
+}
+.buy-now{
+    margin-top: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.sec-header{
+    padding: 35px;
+    margin-top: 30px;
+    text-align: center;
+}
+.star-filled, .star-blank{
+    color: orange;
+    font-size: 10px;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: space-between;
+
+
+}
+.card{
+    width: 330px;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 510px;
+    padding: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-left: 35px;
+    justify-content: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.ratings{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.dollar{
+    font-size: 35px;
+}
+.card-image-h1{
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+/* Collection ends */
