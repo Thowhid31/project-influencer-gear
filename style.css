@@ -73,10 +73,15 @@ nav{
 }
 .prebook-button:hover{
     background-image: linear-gradient(90deg, #c21273, #ff008e);
+    
 }
 .arrow-icon{
     color: white;
     transform: rotate(3);
+    transition: 10s;
+}
+.arrow-icon:hover{
+    transform: skewX(3);
     transition: 5s;
 }
 .container{
@@ -190,6 +195,8 @@ p{
 }
 /* Collection ends */
 
+/* Extra Requared Section starts */
+
 .alumni{
     padding: 35px;
     display: flex;
@@ -230,6 +237,12 @@ p{
 .alumnai-button{
     color: white;
 }
+
+/* Extra Requared Section ends */
+
+
+/* footer starts */
+
 .footer-1{
     text-align: center;
     color: white;
@@ -245,6 +258,9 @@ p{
     padding: 5px;
     margin-top: 10px;
 }
+
+
+/* footer ends */
 
 
 @media (max-width: 920px){
