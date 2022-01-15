@@ -73,16 +73,17 @@ nav{
 }
 .prebook-button:hover{
     background-image: linear-gradient(90deg, #c21273, #ff008e);
-    
+    transform: skewX(3);
+    transition: width 5s, height 5s;
 }
 .arrow-icon{
     color: white;
     transform: rotate(3);
-    transition: 10s;
+    transition: 5s;
 }
 .arrow-icon:hover{
-    transform: skewX(3);
-    transition: 5s;
+    /* transform: rotate(3);
+    transition: width 5s, height 5s; */
 }
 .container{
     margin: auto;
@@ -252,6 +253,7 @@ p{
     margin-top: 30px;
     height: 150px;
     left: 589px;
+    right: 589px;
     top: 100px;
 }
 .icon-footer{
@@ -279,7 +281,34 @@ p{
 }
 
 
-@media (max-width: 620px){
+@media (max-width: 540px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .extra-requarments{
+        display: none;
+        grid-template-columns: 1fr;
+    }
+    .buy-now{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .alumni-right{
+        justify-content: flex-end;
+        align-items: center;
+        width: 400px;
+        margin: 40px;
+    }
+    .navigation-menu li{
+     display: none;
+    }
+    .home-container{
+        display: grid;
+    }
+}
+
+@media (max-width: 320px){
     .cards{
         grid-template-columns: 1fr;
     }
