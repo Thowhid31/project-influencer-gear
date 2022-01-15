@@ -264,6 +264,7 @@ p{
 
 /* footer ends */
 
+/* Responsive Starts Here */
 
 @media (max-width: 920px){
     .cards{
@@ -331,3 +332,5 @@ p{
         display: none;
     }
 }
+
+/* Responsive Ends Here */
